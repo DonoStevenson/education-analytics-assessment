@@ -182,12 +182,12 @@ export default class SchoolYearInfo extends Component {
                                                 }
                                             },
                                             title: 'ACT Scores',
-                                            showlegend: false,
+                                            showlegend: true,
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
                                         config ={
-                                            {staticPlot: true}
+                                            {displayModeBar: false}
                                         }
                                     />
                                     <Plot
@@ -225,10 +225,13 @@ export default class SchoolYearInfo extends Component {
                                                 }
                                             },
                                             title: 'SAT Scores',
-                                            showlegend: false,
+                                            showlegend: true,
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
@@ -249,6 +252,9 @@ export default class SchoolYearInfo extends Component {
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
@@ -269,6 +275,9 @@ export default class SchoolYearInfo extends Component {
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                     <Plot
                                         id="gender"
@@ -284,6 +293,9 @@ export default class SchoolYearInfo extends Component {
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
@@ -313,6 +325,9 @@ export default class SchoolYearInfo extends Component {
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                     <Plot
                                         id="netPrice"
@@ -327,6 +342,9 @@ export default class SchoolYearInfo extends Component {
                                             paper_bgcolor: 'rgba(0,0,0,0)',
                                             plot_bgcolor: 'rgba(0,0,0,0)'
                                         }}
+                                        config ={
+                                            {displayModeBar: false}
+                                        }
                                     />
                                 </Carousel.Item>
                             </Carousel>;
