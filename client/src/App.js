@@ -100,7 +100,9 @@ class App extends Component {
                   year={selectedYear}
                   yearInfo={yearInfo[selectedYear]}/>
               </div>
-                  <CSVLink data={[
+                  <CSVLink
+                      filename={"school-info.csv"}
+                      data={[
                       yearInfo[selectedYear]["academics"]["program_percentage"],
                       yearInfo[selectedYear]["student"]["demographics"]["race_ethnicity"],
                       yearInfo[selectedYear]["cost"]["net_price"]["public"]["by_income_level"],

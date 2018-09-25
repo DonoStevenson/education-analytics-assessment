@@ -122,6 +122,8 @@ export default class SchoolYearInfo extends Component {
             this.formatPieChart(satScores["midpoint"]),
             this.formatPieChart(satScores["75th_percentile"]),
         ]
+        const tuitionInfo = ['Out of State','In State']
+        const tuitionHeader =  [["Residency"],["Tuition (USD)"]]
         return (
                 <div>
                     {pdfDone
@@ -308,11 +310,11 @@ export default class SchoolYearInfo extends Component {
                                         data = {[{
                                             type:'table',
                                             header: {
-                                                values: [["Residency"],["Tuition (USD)"]],
+                                                values: tuitionHeader,
                                             },
                                             cells: {
                                                 values: [
-                                                    ['Out of State','In State'],
+                                                    tuitionInfo,
                                                     [
                                                         '$'+yearInfo['cost']['tuition']['out_of_state'],
                                                         '$'+yearInfo['cost']['tuition']['in_state']
