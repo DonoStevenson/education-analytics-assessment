@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/client/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -128,11 +128,6 @@
               <item name="ea-assessment" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ea-assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ea-assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,18 +173,17 @@
       <workItem from="1537570518675" duration="23072000" />
       <workItem from="1537743860861" duration="3353000" />
       <workItem from="1537820529484" duration="16733000" />
-      <workItem from="1537862715186" duration="7323000" />
+      <workItem from="1537862715186" duration="7720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50481000" />
+    <option name="totallyTimeSpent" value="50878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="761" y="5" width="771" height="812" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28882834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28882834" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -197,7 +191,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34171596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34171596" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,7 +459,7 @@
     <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
