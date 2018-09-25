@@ -1,0 +1,31 @@
+body {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  background: #ccddff;
+  text-align: center;
+}
+
+button {
+  background: #cdcdcd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+span {
+  font-size: 4vh;
+}
+
+table {
+  font-size:3vh;
+}
+
+caption {
+  font-size:5vh;
+}
+
+.schoolYearInfo {
+  background: #cce6ff;
+  border: 1px solid black;
+  border-radius: 60px;
+}
