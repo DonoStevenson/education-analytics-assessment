@@ -9,7 +9,6 @@ const query = "school.operating=1&2015.academics.program_available.assoc_or_bach
     "&school.degrees_awarded.highest__range=2..4&id=240444" +
     "&api_key=3hv7r0a1ioqWSWY32Yja6VafGuGYK0LIEu2BARqa"
 app.get('/schools', function(req, res){
-    console.log('heloo')
     request(apiEndPoint+query, function(err,response,body) {
         res.send(body)
     });
